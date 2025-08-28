@@ -44,4 +44,16 @@ public class Bank {
 	}
 	
 	
+	void test()
+	{
+		
+		System.out.println("Hi");
+		System.out.println("Bye");
+		
+		synchronized (this) {
+			
+		}
+	}
+	
+	
 }
