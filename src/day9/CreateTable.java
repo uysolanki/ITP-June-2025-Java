@@ -10,7 +10,7 @@ public class CreateTable {
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		
-		String dbUrl="jdbc:mysql://localhost:3306/junedb";
+		String dbUrl="jdbc:mysql://192.168.1.44:3306/junedb";
 		String dbUsername="root";
 		String dbPassword="";
 		
@@ -18,7 +18,7 @@ public class CreateTable {
 		
 		Statement st=con.createStatement();
 		
-		String query="create table emp(\r\n"
+		String query="create table emp2(\r\n"
 				+ "eno int(5) primary key,\r\n"
 				+ "ename varchar(10),\r\n"
 				+ "sal int(5),\r\n"
